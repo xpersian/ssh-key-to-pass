@@ -15,4 +15,12 @@ A simple bash script to enable **Root Login** with **Password Authentication** o
 Run this command in your terminal. If you are not root, it will ask for sudo permission.
 
 ```bash
-wget -O setup_ssh.sh [https://raw.githubusercontent.com/USERNAME/REPO/main/script.sh](https://raw.githubusercontent.com/USERNAME/REPO/main/script.sh) && chmod +x setup_ssh.sh && sudo ./setup_ssh.sh
+wget -O setup_ssh.sh https://github.com/xpersian/ssh-key-to-pass/blob/main/root-unlocker.sh && chmod +x root-unlocker.sh && sudo ./root-unlocker.sh
+
+English:
+
+    Enables Root Password Authentication on SSH-Key-only VPS instances (e.g., Infomaniak, Irancell, Hetzner). Fixes sshd_config includes & sets a secure password automatically.
+
+Farsi:
+
+    فعال‌سازی ورود روت با رمز عبور برای سرورهایی که فقط با SSH Key ارائه می‌شوند (مانند اینفومنیاک، ایرانسل و ...). اصلاح خودکار کانفیگ SSH و تنظیم پسورد امن.
