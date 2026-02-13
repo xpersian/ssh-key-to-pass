@@ -17,10 +17,15 @@ Run this command in your terminal. If you are not root, it will ask for sudo per
 ```bash
 wget -O setup_ssh.sh https://github.com/xpersian/ssh-key-to-pass/blob/main/root-unlocker.sh && chmod +x root-unlocker.sh && sudo ./root-unlocker.sh
 ```
-English:
+🇮🇷 توضیحات فارسی
 
-Enables Root Password Authentication on SSH-Key-only VPS instances (e.g., Infomaniak, Irancell, Hetzner). Fixes sshd_config includes & sets a secure password automatically.
+این اسکریپت برای سرورهای مجازی (VPS) طراحی شده که به صورت پیش‌فرض فقط با SSH Key باز می‌شوند و امکان ورود با رمز عبور را بسته‌اند (مثل سرورهای ابری اینفومنیاک، ایرانسل و ...).
+ویژگی‌ها:
 
-Farsi:
+  حذف محدودیت‌های فایل کانفیگ SSH (خطوط Include مزاحم).
 
-  فعال‌سازی ورود روت با رمز عبور برای سرورهایی که فقط با SSH Key ارائه می‌شوند (مانند اینفومنیاک، ایرانسل و ...). اصلاح خودکار کانفیگ SSH و تنظیم پسورد امن.
+  فعال‌سازی لاگین با یوزر root.
+
+  ساخت یک رمز عبور تصادفی و امن ۱۴ رقمی.
+
+  بدون نیاز به ویرایش دستی فایل‌ها.
