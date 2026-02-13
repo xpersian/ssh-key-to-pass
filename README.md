@@ -15,7 +15,7 @@ A simple bash script to enable **Root Login** with **Password Authentication** o
 Run this command in your terminal. If you are not root, it will ask for sudo permission.
 
 ```bash
-wget -O setup_ssh.sh https://github.com/xpersian/ssh-key-to-pass/blob/main/root-unlocker.sh && chmod +x root-unlocker.sh && sudo ./root-unlocker.sh
+wget -O root-unlocker.sh https://raw.githubusercontent.com/xpersian/ssh-key-to-pass/main/root-unlocker.sh && chmod +x setup_ssh.sh && sudo ./setup_ssh.sh
 ```
 🇮🇷 توضیحات فارسی
 
